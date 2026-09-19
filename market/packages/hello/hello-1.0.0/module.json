@@ -1,0 +1,27 @@
+{
+  "id": "hello",
+  "name": "你好世界",
+  "version": "1.0.0",
+  "description": "市场占位插件：最小单页 + 概览小部件 + 配置项，用于验证在线源安装/升级链路",
+  "icon": "box",
+  "author": "Qroer Dev",
+  "permissions": [
+    { "code": "hello:page:view", "name": "查看问候页" }
+  ],
+  "menus": [
+    {
+      "title": "你好世界", "icon": "box", "route": "", "component": "hello/Index", "sort": 80,
+      "children": [
+        { "title": "问候", "icon": "doc", "route": "/hello/home", "component": "hello/home", "permission": "hello:page:view", "sort": 1 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [
+    { "id": "hello.greeting", "title": "市场问候", "component": "hello.greeting", "w": 4, "h": 3, "minW": 3, "minH": 2 }
+  ],
+  "settings": [
+    { "key": "who", "name": "问候对象", "type": "str", "default": "Qroer 用户" }
+  ],
+  "requires": [],
+  "assets": []
+}

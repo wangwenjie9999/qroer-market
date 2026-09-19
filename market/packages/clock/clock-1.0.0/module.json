@@ -1,0 +1,27 @@
+{
+  "id": "clock",
+  "name": "时钟",
+  "version": "1.0.0",
+  "description": "市场占位插件：实时时钟页 + 概览小部件，验证带定时器与两个贡献点的模块",
+  "icon": "calendar",
+  "author": "Qroer Dev",
+  "permissions": [
+    { "code": "clock:page:view", "name": "查看时钟页" }
+  ],
+  "menus": [
+    {
+      "title": "时钟", "icon": "calendar", "route": "", "component": "clock/Index", "sort": 81,
+      "children": [
+        { "title": "实时时钟", "icon": "refresh", "route": "/clock/main", "component": "clock/main", "permission": "clock:page:view", "sort": 1 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [
+    { "id": "clock.now", "title": "当前时间", "component": "clock.now", "w": 3, "h": 2, "minW": 3, "minH": 2 }
+  ],
+  "settings": [
+    { "key": "format", "name": "时间格式", "type": "select", "default": "HH:mm:ss", "options": ["HH:mm", "HH:mm:ss"] }
+  ],
+  "requires": [],
+  "assets": []
+}

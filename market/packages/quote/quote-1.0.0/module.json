@@ -1,0 +1,27 @@
+{
+  "id": "quote",
+  "name": "随机格言",
+  "version": "1.0.0",
+  "description": "市场占位插件：格言列表页（静态数据表格）+ 今日格言小部件",
+  "icon": "edit",
+  "author": "Qroer Dev",
+  "permissions": [
+    { "code": "quote:list:view", "name": "查看格言" }
+  ],
+  "menus": [
+    {
+      "title": "随机格言", "icon": "edit", "route": "", "component": "quote/Index", "sort": 82,
+      "children": [
+        { "title": "格言集", "icon": "doc", "route": "/quote/list", "component": "quote/list", "permission": "quote:list:view", "sort": 1 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [
+    { "id": "quote.today", "title": "今日格言", "component": "quote.today", "w": 4, "h": 3, "minW": 3, "minH": 2, "permission": "quote:list:view" }
+  ],
+  "settings": [
+    { "key": "pageSize", "name": "每页条数", "type": "int", "default": "5" }
+  ],
+  "requires": [],
+  "assets": []
+}
