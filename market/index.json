@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-19T15:43:05.388Z",
+  "generatedAt": "2026-09-19T15:50:29.104Z",
   "modules": [
     {
       "id": "hello",
       "name": "你好世界",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "市场占位插件：最小单页 + 概览小部件 + 配置项，用于验证在线源安装/升级链路",
       "author": "Qroer Dev",
       "icon": "box",
@@ -18,10 +18,10 @@
       ],
       "widgets": 1,
       "menus": 1,
-      "package": "packages/hello/hello-1.0.1.zip",
-      "url": "packages/hello/hello-1.0.1.zip",
-      "sha256": "89f61bdcbebc37a548052422bdadce19676680ec8e66a42514062a2bc2ee535c",
-      "sizeBytes": 7260
+      "package": "packages/hello/hello-1.0.2.zip",
+      "url": "packages/hello/hello-1.0.2.zip",
+      "sha256": "421d0b76266d57eb03e41390a6c27a6c6c506014df7ab40f85dd5602ebb96193",
+      "sizeBytes": 7261
     },
     {
       "id": "clock",
