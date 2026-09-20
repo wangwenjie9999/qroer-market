@@ -1,7 +1,84 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-19T15:50:29.104Z",
+  "generatedAt": "2026-09-20T00:03:18.427Z",
   "modules": [
+    {
+      "id": "site_publish",
+      "name": "站点发布",
+      "version": "0.5.0",
+      "description": "本地 Markdown/草稿 → WordPress(RiPro-V5) 与微信公众号的批量、定时发布中心",
+      "author": "Qroer",
+      "icon": "cloud",
+      "requires": [],
+      "permissions": [
+        {
+          "code": "site_publish:draft:list",
+          "name": "查看草稿"
+        },
+        {
+          "code": "site_publish:draft:create",
+          "name": "新建草稿"
+        },
+        {
+          "code": "site_publish:draft:update",
+          "name": "修改草稿"
+        },
+        {
+          "code": "site_publish:draft:delete",
+          "name": "删除草稿"
+        },
+        {
+          "code": "site_publish:publish:run",
+          "name": "执行发布"
+        },
+        {
+          "code": "site_publish:publish:read",
+          "name": "查看发布任务"
+        },
+        {
+          "code": "site_publish:ingest:run",
+          "name": "导入本地文件"
+        },
+        {
+          "code": "site_publish:schedule:list",
+          "name": "查看定时任务"
+        },
+        {
+          "code": "site_publish:schedule:write",
+          "name": "管理定时任务"
+        },
+        {
+          "code": "site_publish:audit:read",
+          "name": "查看体检结果"
+        },
+        {
+          "code": "site_publish:audit:run",
+          "name": "发起站点体检"
+        },
+        {
+          "code": "site_publish:channel:read",
+          "name": "查看通道状态"
+        },
+        {
+          "code": "site_publish:channel:write",
+          "name": "管理发布账号"
+        },
+        {
+          "code": "site_publish:log:delete",
+          "name": "清理发布日志"
+        },
+        {
+          "code": "site_publish:log:export",
+          "name": "导出发布日志"
+        }
+      ],
+      "widgets": 0,
+      "menus": 1,
+      "package": "packages/site_publish/site_publish-0.5.0.zip",
+      "url": "packages/site_publish/site_publish-0.5.0.zip",
+      "sha256": "0fe34397cc3b941f8856b3d9d99601c652ceb930d3ad26622f547e86c3d7c13f",
+      "sizeBytes": 455760
+    },
     {
       "id": "hello",
       "name": "你好世界",
@@ -20,7 +97,7 @@
       "menus": 1,
       "package": "packages/hello/hello-1.0.2.zip",
       "url": "packages/hello/hello-1.0.2.zip",
-      "sha256": "421d0b76266d57eb03e41390a6c27a6c6c506014df7ab40f85dd5602ebb96193",
+      "sha256": "77971f9a99de87c524ebce7a07456623d49615d71e0d89595f8891a8eccf6fbe",
       "sizeBytes": 7261
     },
     {
@@ -41,8 +118,8 @@
       "menus": 1,
       "package": "packages/clock/clock-1.0.0.zip",
       "url": "packages/clock/clock-1.0.0.zip",
-      "sha256": "a36ad60837392135b67972a7b2f65f37799572984ebf988d5c3c1d274e66d57d",
-      "sizeBytes": 7852
+      "sha256": "4ae483e87c3f44599ab01d403ca0ccc6c89f62b4327e3060d2e650bbeee9facd",
+      "sizeBytes": 7854
     },
     {
       "id": "quote",
@@ -62,8 +139,8 @@
       "menus": 1,
       "package": "packages/quote/quote-1.0.0.zip",
       "url": "packages/quote/quote-1.0.0.zip",
-      "sha256": "a4c5589de97ac98c09afc725ffcb51f26f4311aa1b5bf14759bc9ff28e84c8bd",
-      "sizeBytes": 8617
+      "sha256": "60d9158aed978695963b45bfca8c59dd6647ceba2f794e88e7db72c5399b0e60",
+      "sizeBytes": 8621
     }
   ]
 }
