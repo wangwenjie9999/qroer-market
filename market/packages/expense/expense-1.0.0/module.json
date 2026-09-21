@@ -1,0 +1,30 @@
+{
+  "id": "expense",
+  "name": "记账本",
+  "version": "1.0.0",
+  "description": "日常收支记账：账单明细 CRUD + 月度报表 + 首页本月概览 + CSV 导出",
+  "icon": "coin",
+  "author": "Qroer",
+  "permissions": [
+    { "code": "expense:item:view", "name": "查看账本" },
+    { "code": "expense:item:edit", "name": "记账管理" }
+  ],
+  "menus": [
+    {
+      "title": "记账本", "icon": "coin", "route": "", "component": "expense/Index", "sort": 30,
+      "children": [
+        { "title": "账单明细", "icon": "list", "route": "/expense/list", "component": "expense/list", "permission": "expense:item:view", "sort": 1 },
+        { "title": "月度报表", "icon": "chart", "route": "/expense/report", "component": "expense/report", "permission": "expense:item:view", "sort": 2 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [
+    { "id": "expense.month", "title": "本月收支", "component": "expense.month", "w": 4, "h": 4, "minW": 3, "minH": 3, "permission": "expense:item:view" }
+  ],
+  "settings": [
+    { "key": "currency", "name": "货币符号", "type": "str", "default": "¥" },
+    { "key": "budget", "name": "月度支出预算（元）", "type": "int", "default": "5000" }
+  ],
+  "requires": [],
+  "assets": []
+}
