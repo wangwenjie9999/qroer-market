@@ -1,8 +1,8 @@
 {
   "id": "doubao_task",
   "name": "豆包任务",
-  "version": "0.1.0",
-  "description": "托管定时任务：到点自动操作本地豆包客户端发送提示词，读回回复并落盘标准 md 文件",
+  "version": "0.2.0",
+  "description": "托管定时任务：后台静默操作本地豆包客户端（未启动时自动拉起并停边隐身）发送提示词，读回回复落盘 md；支持站点发文格式（front-matter）直出",
   "icon": "zap",
   "author": "Qroer",
   "dll": "Qroer.Module.DoubaoTask.dll",
