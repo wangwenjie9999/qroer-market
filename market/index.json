@@ -1,11 +1,74 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-20T00:03:18.427Z",
+  "generatedAt": "2026-09-21T01:21:43.711Z",
   "modules": [
+    {
+      "id": "hello",
+      "name": "你好世界",
+      "version": "1.0.2",
+      "description": "市场占位插件：最小单页 + 概览小部件 + 配置项，用于验证在线源安装/升级链路",
+      "author": "Qroer Dev",
+      "icon": "box",
+      "requires": [],
+      "permissions": [
+        {
+          "code": "hello:page:view",
+          "name": "查看问候页"
+        }
+      ],
+      "widgets": 1,
+      "menus": 1,
+      "package": "packages/hello/hello-1.0.2.zip",
+      "url": "https://raw.githubusercontent.com/wangwenjie9999/qroer-market/main/packages/hello/hello-1.0.2.zip",
+      "sha256": "d3174d8dfe23ceb68cb4c08982147d948cffbcf77714e21e708c2ac8c280d9e4",
+      "sizeBytes": 7263
+    },
+    {
+      "id": "clock",
+      "name": "时钟",
+      "version": "1.0.0",
+      "description": "市场占位插件：实时时钟页 + 概览小部件，验证带定时器与两个贡献点的模块",
+      "author": "Qroer Dev",
+      "icon": "calendar",
+      "requires": [],
+      "permissions": [
+        {
+          "code": "clock:page:view",
+          "name": "查看时钟页"
+        }
+      ],
+      "widgets": 1,
+      "menus": 1,
+      "package": "packages/clock/clock-1.0.0.zip",
+      "url": "https://raw.githubusercontent.com/wangwenjie9999/qroer-market/main/packages/clock/clock-1.0.0.zip",
+      "sha256": "1211fa4274b3863a2d616879f4868a060c5ae03dc28195d823a525c0699feb75",
+      "sizeBytes": 7856
+    },
+    {
+      "id": "quote",
+      "name": "随机格言",
+      "version": "1.0.0",
+      "description": "市场占位插件：格言列表页（静态数据表格）+ 今日格言小部件",
+      "author": "Qroer Dev",
+      "icon": "edit",
+      "requires": [],
+      "permissions": [
+        {
+          "code": "quote:list:view",
+          "name": "查看格言"
+        }
+      ],
+      "widgets": 1,
+      "menus": 1,
+      "package": "packages/quote/quote-1.0.0.zip",
+      "url": "https://raw.githubusercontent.com/wangwenjie9999/qroer-market/main/packages/quote/quote-1.0.0.zip",
+      "sha256": "ed60b48379c0fc31a8cb3fc26676db73748d7d5bf70ba3d062b09c18b6524881",
+      "sizeBytes": 8623
+    },
     {
       "id": "site_publish",
       "name": "站点发布",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "description": "本地 Markdown/草稿 → WordPress(RiPro-V5) 与微信公众号的批量、定时发布中心",
       "author": "Qroer",
       "icon": "cloud",
@@ -74,73 +137,35 @@
       ],
       "widgets": 0,
       "menus": 1,
-      "package": "packages/site_publish/site_publish-0.5.0.zip",
-      "url": "packages/site_publish/site_publish-0.5.0.zip",
-      "sha256": "0fe34397cc3b941f8856b3d9d99601c652ceb930d3ad26622f547e86c3d7c13f",
-      "sizeBytes": 455760
+      "package": "packages/site_publish/site_publish-0.5.1.zip",
+      "url": "https://raw.githubusercontent.com/wangwenjie9999/qroer-market/main/packages/site_publish/site_publish-0.5.1.zip",
+      "sha256": "5f3600b909a8affcac992485afcf20710a917252c2bac6bb5223cae34cbeb549",
+      "sizeBytes": 456085
     },
     {
-      "id": "hello",
-      "name": "你好世界",
-      "version": "1.0.2",
-      "description": "市场占位插件：最小单页 + 概览小部件 + 配置项，用于验证在线源安装/升级链路",
-      "author": "Qroer Dev",
-      "icon": "box",
-      "requires": [],
-      "permissions": [
-        {
-          "code": "hello:page:view",
-          "name": "查看问候页"
-        }
-      ],
-      "widgets": 1,
-      "menus": 1,
-      "package": "packages/hello/hello-1.0.2.zip",
-      "url": "packages/hello/hello-1.0.2.zip",
-      "sha256": "77971f9a99de87c524ebce7a07456623d49615d71e0d89595f8891a8eccf6fbe",
-      "sizeBytes": 7261
-    },
-    {
-      "id": "clock",
-      "name": "时钟",
+      "id": "expense",
+      "name": "记账本",
       "version": "1.0.0",
-      "description": "市场占位插件：实时时钟页 + 概览小部件，验证带定时器与两个贡献点的模块",
-      "author": "Qroer Dev",
-      "icon": "calendar",
+      "description": "日常收支记账：账单明细 CRUD + 月度报表 + 首页本月概览 + CSV 导出",
+      "author": "Qroer",
+      "icon": "coin",
       "requires": [],
       "permissions": [
         {
-          "code": "clock:page:view",
-          "name": "查看时钟页"
+          "code": "expense:item:view",
+          "name": "查看账本"
+        },
+        {
+          "code": "expense:item:edit",
+          "name": "记账管理"
         }
       ],
       "widgets": 1,
       "menus": 1,
-      "package": "packages/clock/clock-1.0.0.zip",
-      "url": "packages/clock/clock-1.0.0.zip",
-      "sha256": "4ae483e87c3f44599ab01d403ca0ccc6c89f62b4327e3060d2e650bbeee9facd",
-      "sizeBytes": 7854
-    },
-    {
-      "id": "quote",
-      "name": "随机格言",
-      "version": "1.0.0",
-      "description": "市场占位插件：格言列表页（静态数据表格）+ 今日格言小部件",
-      "author": "Qroer Dev",
-      "icon": "edit",
-      "requires": [],
-      "permissions": [
-        {
-          "code": "quote:list:view",
-          "name": "查看格言"
-        }
-      ],
-      "widgets": 1,
-      "menus": 1,
-      "package": "packages/quote/quote-1.0.0.zip",
-      "url": "packages/quote/quote-1.0.0.zip",
-      "sha256": "60d9158aed978695963b45bfca8c59dd6647ceba2f794e88e7db72c5399b0e60",
-      "sizeBytes": 8621
+      "package": "packages/expense/expense-1.0.0.zip",
+      "url": "https://raw.githubusercontent.com/wangwenjie9999/qroer-market/main/packages/expense/expense-1.0.0.zip",
+      "sha256": "6419635aa9138233a3469619f8f006530383c8220cf676443e5c4cbd2beeaeee",
+      "sizeBytes": 22601
     }
   ]
 }
