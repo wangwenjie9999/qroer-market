@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-21T14:34:45.681Z",
+  "generatedAt": "2026-09-21T19:32:56.893Z",
   "modules": [
     {
       "id": "hello",
@@ -20,8 +20,8 @@
       "menus": 1,
       "package": "packages/hello/hello-1.0.2.zip",
       "url": "packages/hello/hello-1.0.2.zip",
-      "sha256": "8a5a133fb9b839eedc4ff64455aa0d7419c4ea0785ee6632c925a1e1b6829fd6",
-      "sizeBytes": 7260
+      "sha256": "8eddf0adc47309cf74aeeb3143835f22d30ac46453623a62832889ce27a3ca48",
+      "sizeBytes": 7257
     },
     {
       "id": "clock",
@@ -41,8 +41,8 @@
       "menus": 1,
       "package": "packages/clock/clock-1.0.0.zip",
       "url": "packages/clock/clock-1.0.0.zip",
-      "sha256": "1f7aee9ddeb28b7b91f01da270516a0515c55ccae982f45ebac1d67a484cc00b",
-      "sizeBytes": 7858
+      "sha256": "b9f38e07655b689dba6c9a1bac19c17f11806ff360f5568dae261877050fbb13",
+      "sizeBytes": 7847
     },
     {
       "id": "quote",
@@ -62,8 +62,8 @@
       "menus": 1,
       "package": "packages/quote/quote-1.0.0.zip",
       "url": "packages/quote/quote-1.0.0.zip",
-      "sha256": "0f905b5c38cb77e20206c76691a28bd10d9084f1fac387808cee01189971828d",
-      "sizeBytes": 8623
+      "sha256": "0325d04deaabc0805b5adf0ebbdfe4109b34e9e9702b857b9ece954496a2cb85",
+      "sizeBytes": 8617
     },
     {
       "id": "expense",
@@ -87,8 +87,8 @@
       "menus": 1,
       "package": "packages/expense/expense-1.0.0.zip",
       "url": "packages/expense/expense-1.0.0.zip",
-      "sha256": "08e678c1794a580c1bc550117a8e911ad1fa335b778ddcc30ff8cd7a2ab7793e",
-      "sizeBytes": 22523
+      "sha256": "2112bb3449215b33469a5fb93cf124ed9025576279a1b8631aeb17d6172b1d55",
+      "sizeBytes": 22516
     },
     {
       "id": "site_publish",
@@ -164,8 +164,34 @@
       "menus": 1,
       "package": "packages/site_publish/site_publish-0.6.1.zip",
       "url": "packages/site_publish/site_publish-0.6.1.zip",
-      "sha256": "e009dc5478c2cbc54abfcc013f0bf054b55d2c739e7854e4e4fd90cfc2068da8",
-      "sizeBytes": 460733
+      "sha256": "7fcb5ae4cf9db43c88a3d56a39f94a69656e2e193fc7d4201abf5a2c5f107c33",
+      "sizeBytes": 460726
+    },
+    {
+      "id": "toolbox",
+      "name": "工具箱",
+      "version": "1.0.3",
+      "description": "JSON / 时间戳 / 编码转换与单位换算，纯前端交互零数据表",
+      "author": "Qroer",
+      "icon": "tools",
+      "requires": [
+        {
+          "id": "notes",
+          "version": "1.0.0"
+        }
+      ],
+      "permissions": [
+        {
+          "code": "toolbox:tool:use",
+          "name": "使用工具箱"
+        }
+      ],
+      "widgets": 0,
+      "menus": 1,
+      "package": "packages/toolbox/toolbox-1.0.3.zip",
+      "url": "packages/toolbox/toolbox-1.0.3.zip",
+      "sha256": "af641e10b65b91deef56cf4ad42702ddbef9d072e48a3aaa78863944f89acb39",
+      "sizeBytes": 17884
     }
   ]
 }
