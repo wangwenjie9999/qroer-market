@@ -1,0 +1,41 @@
+{
+  "id": "site_publish",
+  "name": "站点发布",
+  "version": "0.5.1",
+  "description": "本地 Markdown/草稿 → WordPress(RiPro-V5) 与微信公众号的批量、定时发布中心",
+  "icon": "cloud",
+  "author": "Qroer",
+  "dll": "Qroer.Module.SitePublish.dll",
+  "permissions": [
+    { "code": "site_publish:draft:list", "name": "查看草稿" },
+    { "code": "site_publish:draft:create", "name": "新建草稿" },
+    { "code": "site_publish:draft:update", "name": "修改草稿" },
+    { "code": "site_publish:draft:delete", "name": "删除草稿" },
+    { "code": "site_publish:publish:run", "name": "执行发布" },
+    { "code": "site_publish:publish:read", "name": "查看发布任务" },
+    { "code": "site_publish:ingest:run", "name": "导入本地文件" },
+    { "code": "site_publish:schedule:list", "name": "查看定时任务" },
+    { "code": "site_publish:schedule:write", "name": "管理定时任务" },
+    { "code": "site_publish:audit:read", "name": "查看体检结果" },
+    { "code": "site_publish:audit:run", "name": "发起站点体检" },
+    { "code": "site_publish:channel:read", "name": "查看通道状态" },
+    { "code": "site_publish:channel:write", "name": "管理发布账号" },
+    { "code": "site_publish:log:delete", "name": "清理发布日志" },
+    { "code": "site_publish:log:export", "name": "导出发布日志" }
+  ],
+  "menus": [
+    {
+      "title": "站点发布", "icon": "cloud", "route": "", "component": "site_publish/root", "sort": 10,
+      "children": [
+        { "title": "发布账号", "icon": "globe", "route": "/site_publish/accounts", "component": "site_publish/accounts", "permission": "site_publish:channel:read", "sort": 1 },
+        { "title": "草稿与发布", "icon": "doc", "route": "/site_publish/drafts", "component": "site_publish/drafts", "permission": "site_publish:draft:list", "sort": 2 },
+        { "title": "批量导入", "icon": "folder", "route": "/site_publish/import", "component": "site_publish/import", "permission": "site_publish:ingest:run", "sort": 3 },
+        { "title": "发布日志", "icon": "clock", "route": "/site_publish/logs", "component": "site_publish/logs", "permission": "site_publish:publish:read", "sort": 4 },
+        { "title": "站点体检", "icon": "shield", "route": "/site_publish/audit", "component": "site_publish/audit", "permission": "site_publish:audit:read", "sort": 5 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [],
+  "settings": [],
+  "assets": []
+}
