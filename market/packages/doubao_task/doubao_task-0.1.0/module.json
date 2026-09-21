@@ -1,0 +1,26 @@
+{
+  "id": "doubao_task",
+  "name": "豆包任务",
+  "version": "0.1.0",
+  "description": "托管定时任务：到点自动操作本地豆包客户端发送提示词，读回回复并落盘标准 md 文件",
+  "icon": "zap",
+  "author": "Qroer",
+  "dll": "Qroer.Module.DoubaoTask.dll",
+  "permissions": [
+    { "code": "doubao_task:view", "name": "查看任务与历史" },
+    { "code": "doubao_task:edit", "name": "增删改任务" },
+    { "code": "doubao_task:run", "name": "执行任务" }
+  ],
+  "menus": [
+    {
+      "title": "豆包任务", "icon": "zap", "route": "", "component": "doubao_task/root", "sort": 83,
+      "children": [
+        { "title": "任务列表", "icon": "doc", "route": "/doubao_task/tasks", "component": "doubao_task/tasks", "permission": "doubao_task:view", "sort": 1 },
+        { "title": "执行历史", "icon": "clock", "route": "/doubao_task/runs", "component": "doubao_task/runs", "permission": "doubao_task:view", "sort": 2 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [],
+  "settings": [],
+  "assets": []
+}
