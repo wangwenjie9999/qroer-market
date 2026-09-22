@@ -1,0 +1,30 @@
+{
+  "id": "notes",
+  "name": "笔记",
+  "version": "1.1.1",
+  "description": "随手记：表格 CRUD + 富文本写作页，验证模块全链路",
+  "icon": "notebook",
+  "author": "Qroer",
+  "permissions": [
+    { "code": "notes:note:view", "name": "查看笔记" },
+    { "code": "notes:note:edit", "name": "编辑笔记" }
+  ],
+  "menus": [
+    {
+      "title": "笔记", "icon": "notebook", "route": "", "component": "notes/Index", "sort": 10,
+      "children": [
+        { "title": "笔记列表", "icon": "doc", "route": "/notes/list", "component": "notes/list", "permission": "notes:note:view", "sort": 1 },
+        { "title": "写笔记", "icon": "edit", "route": "/notes/editor", "component": "notes/editor", "permission": "notes:note:edit", "sort": 2 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [
+    { "id": "notes.recent", "title": "最近笔记", "component": "notes.recent", "w": 4, "h": 4, "minW": 3, "minH": 3, "permission": "notes:note:view" }
+  ],
+  "settings": [
+    { "key": "maxlen", "name": "正文字数上限", "type": "int", "default": "2000" },
+    { "key": "defaultTag", "name": "默认标签", "type": "select", "default": "随笔", "options": ["随笔", "工作", "灵感", "学习"] },
+    { "key": "pinTop", "name": "列表置顶优先", "type": "bool", "default": "true" }
+  ],
+  "assets": []
+}

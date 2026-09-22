@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-21T22:07:26.594Z",
+  "generatedAt": "2026-09-22T00:31:34.938Z",
   "modules": [
     {
       "id": "hello",
@@ -20,7 +20,7 @@
       "menus": 1,
       "package": "packages/hello/hello-1.0.2.zip",
       "url": "packages/hello/hello-1.0.2.zip",
-      "sha256": "11bdb31bd708810f7626e4ed3e744b0ab31923b784e3c0190ca54f7596d1ac89",
+      "sha256": "cc78d11f34354fd34ee658f3daf1171cbfd447394829b8f9d0e477d8536a49d4",
       "sizeBytes": 7258
     },
     {
@@ -41,8 +41,8 @@
       "menus": 1,
       "package": "packages/clock/clock-1.0.0.zip",
       "url": "packages/clock/clock-1.0.0.zip",
-      "sha256": "5a3e68fd8a3ce799d68b79502ab164ad299b08ef3d4d27ac8efa359f7f98bdff",
-      "sizeBytes": 7851
+      "sha256": "d51acaecf4b466d0bd1e600a3cb259ff55159dd032b577ee7f2c2b5165990b93",
+      "sizeBytes": 7849
     },
     {
       "id": "quote",
@@ -62,8 +62,8 @@
       "menus": 1,
       "package": "packages/quote/quote-1.0.0.zip",
       "url": "packages/quote/quote-1.0.0.zip",
-      "sha256": "250d99b4d0651c83faf7e8fca9c72c7bd2eb007a73bf483594941c113ccfe911",
-      "sizeBytes": 8616
+      "sha256": "070678bc846fe6f996678de1c7282f46beac38db62856a7e62eca52f33aac2f4",
+      "sizeBytes": 8617
     },
     {
       "id": "expense",
@@ -87,8 +87,8 @@
       "menus": 1,
       "package": "packages/expense/expense-1.0.0.zip",
       "url": "packages/expense/expense-1.0.0.zip",
-      "sha256": "88dc8bbf04c97b511be2da1571b63ae24d2b4fb86d25330e603a0fd60ae4fce9",
-      "sizeBytes": 22514
+      "sha256": "00f3853bfce7763e025002f8a7171f9509390c949ea9ba3bd06787a9f741cf98",
+      "sizeBytes": 22517
     },
     {
       "id": "site_publish",
@@ -164,7 +164,7 @@
       "menus": 1,
       "package": "packages/site_publish/site_publish-0.6.1.zip",
       "url": "packages/site_publish/site_publish-0.6.1.zip",
-      "sha256": "60b89cef08b374b94ab2b38b42c8fdfa247c24fc88826dc532bb3b84618d55c9",
+      "sha256": "7a308dd706313e22bc674840b508ebca8c22fe29b4d0a261e3249f8584970345",
       "sizeBytes": 460729
     },
     {
@@ -190,13 +190,38 @@
       "menus": 1,
       "package": "packages/toolbox/toolbox-1.0.3.zip",
       "url": "packages/toolbox/toolbox-1.0.3.zip",
-      "sha256": "107b18a7b785a512a214131ddb515803c58dbc3260680002e10c9056cd9274c5",
-      "sizeBytes": 17883
+      "sha256": "c5d0d55ab6d8d88c9cf88b306d6e792c3911e49738770474f98ea2c8cc16be8b",
+      "sizeBytes": 17881
+    },
+    {
+      "id": "notes",
+      "name": "笔记",
+      "version": "1.1.1",
+      "description": "随手记：表格 CRUD + 富文本写作页，验证模块全链路",
+      "author": "Qroer",
+      "icon": "notebook",
+      "requires": [],
+      "permissions": [
+        {
+          "code": "notes:note:view",
+          "name": "查看笔记"
+        },
+        {
+          "code": "notes:note:edit",
+          "name": "编辑笔记"
+        }
+      ],
+      "widgets": 1,
+      "menus": 1,
+      "package": "packages/notes/notes-1.1.1.zip",
+      "url": "packages/notes/notes-1.1.1.zip",
+      "sha256": "1239ab2846cc5f3ec3834db74327000e4886a20e0bfea797a5a2ddda8efe763b",
+      "sizeBytes": 19115
     },
     {
       "id": "doubao_task",
       "name": "豆包任务",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "托管定时任务：后台静默操作本地豆包客户端（未启动时自动拉起并停边隐身）发送提示词，读回回复落盘 md；支持站点发文格式（front-matter）直出",
       "author": "Qroer",
       "icon": "zap",
@@ -217,10 +242,10 @@
       ],
       "widgets": 0,
       "menus": 1,
-      "package": "packages/doubao_task/doubao_task-0.2.0.zip",
-      "url": "packages/doubao_task/doubao_task-0.2.0.zip",
-      "sha256": "b628bc6d13dff0ae48bd4d892081574854d7d4341135d0ce8c752df3af3b7336",
-      "sizeBytes": 60183
+      "package": "packages/doubao_task/doubao_task-0.2.1.zip",
+      "url": "packages/doubao_task/doubao_task-0.2.1.zip",
+      "sha256": "aa5e37cf56ff9ffb2e988835d33dd90d0b842afa2535ab4092b105d1ebe40de0",
+      "sizeBytes": 60540
     }
   ]
 }
