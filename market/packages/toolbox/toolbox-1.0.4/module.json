@@ -1,0 +1,29 @@
+{
+  "id": "toolbox",
+  "name": "工具箱",
+  "version": "1.0.4",
+  "description": "JSON / 时间戳 / 编码转换与单位换算 + PDF 水印清洗（智能分析/全能王预设），零数据表",
+  "icon": "tools",
+  "author": "Qroer",
+  "permissions": [
+    { "code": "toolbox:tool:use", "name": "使用工具箱" }
+  ],
+  "menus": [
+    {
+      "title": "工具箱", "icon": "tools", "route": "", "component": "toolbox/Index", "sort": 30,
+      "children": [
+        { "title": "常用工具", "icon": "tools", "route": "/toolbox/common", "component": "toolbox/common", "permission": "toolbox:tool:use", "sort": 1 },
+        { "title": "单位换算", "icon": "refresh", "route": "/toolbox/convert", "component": "toolbox/convert", "permission": "toolbox:tool:use", "sort": 2 },
+        { "title": "组件演示", "icon": "palette", "route": "/toolbox/widgets", "component": "toolbox/widgets", "permission": "toolbox:tool:use", "sort": 3 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [],
+  "requires": [
+    { "id": "notes", "version": "1.0.0" }
+  ],
+  "settings": [
+    { "key": "precision", "name": "换算小数位", "type": "int", "default": "4" }
+  ],
+  "assets": []
+}
