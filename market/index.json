@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-22T00:31:34.938Z",
+  "generatedAt": "2026-09-22T07:35:58.186Z",
   "modules": [
     {
       "id": "hello",
@@ -20,8 +20,8 @@
       "menus": 1,
       "package": "packages/hello/hello-1.0.2.zip",
       "url": "packages/hello/hello-1.0.2.zip",
-      "sha256": "cc78d11f34354fd34ee658f3daf1171cbfd447394829b8f9d0e477d8536a49d4",
-      "sizeBytes": 7258
+      "sha256": "96eeb6ddd428ea6ab0e1d308538a44d1ad341d60e1ff9247b2974ea1e1aeed6c",
+      "sizeBytes": 7259
     },
     {
       "id": "clock",
@@ -41,8 +41,8 @@
       "menus": 1,
       "package": "packages/clock/clock-1.0.0.zip",
       "url": "packages/clock/clock-1.0.0.zip",
-      "sha256": "d51acaecf4b466d0bd1e600a3cb259ff55159dd032b577ee7f2c2b5165990b93",
-      "sizeBytes": 7849
+      "sha256": "be833bf0acf673bd164fd9d569b009d9cf29d966a4fc747031bd7847ec29777d",
+      "sizeBytes": 7854
     },
     {
       "id": "quote",
@@ -62,8 +62,8 @@
       "menus": 1,
       "package": "packages/quote/quote-1.0.0.zip",
       "url": "packages/quote/quote-1.0.0.zip",
-      "sha256": "070678bc846fe6f996678de1c7282f46beac38db62856a7e62eca52f33aac2f4",
-      "sizeBytes": 8617
+      "sha256": "6675bd28ec176da80e74b0b9cc7d9ac93a04b957e131180231510e53f86a18f4",
+      "sizeBytes": 8618
     },
     {
       "id": "expense",
@@ -87,13 +87,13 @@
       "menus": 1,
       "package": "packages/expense/expense-1.0.0.zip",
       "url": "packages/expense/expense-1.0.0.zip",
-      "sha256": "00f3853bfce7763e025002f8a7171f9509390c949ea9ba3bd06787a9f741cf98",
-      "sizeBytes": 22517
+      "sha256": "be14fceee25408ac001ebf688a1d8dc127aac21dd3f7b7bc60aa90f97c0b8b31",
+      "sizeBytes": 22569
     },
     {
       "id": "site_publish",
       "name": "站点发布",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "description": "本地 Markdown/草稿 → WordPress(RiPro-V5) 与微信公众号的批量、定时发布中心",
       "author": "Qroer",
       "icon": "cloud",
@@ -162,10 +162,10 @@
       ],
       "widgets": 1,
       "menus": 1,
-      "package": "packages/site_publish/site_publish-0.6.1.zip",
-      "url": "packages/site_publish/site_publish-0.6.1.zip",
-      "sha256": "7a308dd706313e22bc674840b508ebca8c22fe29b4d0a261e3249f8584970345",
-      "sizeBytes": 460729
+      "package": "packages/site_publish/site_publish-0.6.2.zip",
+      "url": "packages/site_publish/site_publish-0.6.2.zip",
+      "sha256": "693f07e2fb02acc190dda63d16397908ab7917d08772709cd2fd6e9121b41e3e",
+      "sizeBytes": 460646
     },
     {
       "id": "toolbox",
@@ -190,13 +190,13 @@
       "menus": 1,
       "package": "packages/toolbox/toolbox-1.0.3.zip",
       "url": "packages/toolbox/toolbox-1.0.3.zip",
-      "sha256": "c5d0d55ab6d8d88c9cf88b306d6e792c3911e49738770474f98ea2c8cc16be8b",
-      "sizeBytes": 17881
+      "sha256": "d1d2a45787fc4101fa4d180171e945fd7df768514deaf1e570cdd6fab758f1b8",
+      "sizeBytes": 17885
     },
     {
       "id": "notes",
       "name": "笔记",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "随手记：表格 CRUD + 富文本写作页，验证模块全链路",
       "author": "Qroer",
       "icon": "notebook",
@@ -213,15 +213,15 @@
       ],
       "widgets": 1,
       "menus": 1,
-      "package": "packages/notes/notes-1.1.1.zip",
-      "url": "packages/notes/notes-1.1.1.zip",
-      "sha256": "1239ab2846cc5f3ec3834db74327000e4886a20e0bfea797a5a2ddda8efe763b",
-      "sizeBytes": 19115
+      "package": "packages/notes/notes-1.1.2.zip",
+      "url": "packages/notes/notes-1.1.2.zip",
+      "sha256": "2399305d953005c7325bceb5a343feba2cc9c6ca6753a32333758e43f577ef92",
+      "sizeBytes": 19044
     },
     {
       "id": "doubao_task",
       "name": "豆包任务",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "托管定时任务：后台静默操作本地豆包客户端（未启动时自动拉起并停边隐身）发送提示词，读回回复落盘 md；支持站点发文格式（front-matter）直出",
       "author": "Qroer",
       "icon": "zap",
@@ -242,10 +242,10 @@
       ],
       "widgets": 0,
       "menus": 1,
-      "package": "packages/doubao_task/doubao_task-0.2.1.zip",
-      "url": "packages/doubao_task/doubao_task-0.2.1.zip",
-      "sha256": "aa5e37cf56ff9ffb2e988835d33dd90d0b842afa2535ab4092b105d1ebe40de0",
-      "sizeBytes": 60540
+      "package": "packages/doubao_task/doubao_task-0.2.2.zip",
+      "url": "packages/doubao_task/doubao_task-0.2.2.zip",
+      "sha256": "99f433c9971a7306825f6ae4ba29e59d5a61e8fd33290e38af11b49bf2581a64",
+      "sizeBytes": 59833
     }
   ]
 }

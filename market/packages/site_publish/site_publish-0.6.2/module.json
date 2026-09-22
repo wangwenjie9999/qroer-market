@@ -1,7 +1,7 @@
 {
   "id": "site_publish",
   "name": "站点发布",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "本地 Markdown/草稿 → WordPress(RiPro-V5) 与微信公众号的批量、定时发布中心",
   "icon": "cloud",
   "author": "Qroer",
