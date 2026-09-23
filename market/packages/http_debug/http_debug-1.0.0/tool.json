@@ -1,0 +1,27 @@
+{
+  "id": "http_debug",
+  "name": "HTTP 接口调试",
+  "version": "1.0.0",
+  "description": "HTTP 接口调试本地工具包：GET/POST 等请求构建（Params/Headers/Body/Auth）+ 发送 + 响应面板 + 会话历史，进程内 HttpClient 直连无 CORS 限制",
+  "icon": "globe",
+  "author": "Qroer",
+  "kind": "tool",
+  "dll": "Qroer.Tool.HttpDebug.dll",
+  "permissions": [],
+  "menus": [],
+  "dashboardWidgets": [],
+  "requires": [],
+  "tools": [
+    {
+      "key": "http_debug",
+      "name": "HTTP 接口调试",
+      "category": "开发",
+      "tags": ["开发", "HTTP", "调试"],
+      "icon": "globe",
+      "description": "参考 Hoppscotch/Postman 交互：方法+URL+参数+请求头+Body+认证，一键发送，响应状态码/耗时/体积/头/JSON 美化，本会话历史回填重发",
+      "component": "Qroer.Tool.HttpDebug.HttpDebugTool"
+    }
+  ],
+  "settings": [],
+  "assets": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "devtools",
+  "name": "开发小工具",
+  "version": "1.0.0",
+  "description": "开发者常用本地小工具：JSON 格式化/压缩/转义、Unix 时间戳互转、Base64/URL 编解码、单位换算，零外部依赖",
+  "icon": "terminal",
+  "author": "Qroer",
+  "kind": "tool",
+  "dll": "Qroer.Tool.DevTools.dll",
+  "permissions": [],
+  "menus": [],
+  "dashboardWidgets": [],
+  "requires": [],
+  "tools": [
+    {
+      "key": "json",
+      "name": "JSON 工具",
+      "category": "开发",
+      "tags": ["开发", "JSON"],
+      "icon": "doc",
+      "description": "JSON 格式化 / 压缩 / 转义 / 去转义，全部本地计算",
+      "component": "Qroer.Tool.DevTools.JsonTool"
+    },
+    {
+      "key": "timestamp",
+      "name": "时间戳转换",
+      "category": "开发",
+      "tags": ["开发", "时间"],
+      "icon": "clock",
+      "description": "Unix 秒 ↔ 日期时间互转，附当前时间戳速读",
+      "component": "Qroer.Tool.DevTools.TimestampTool"
+    },
+    {
+      "key": "encoding",
+      "name": "编码转换",
+      "category": "开发",
+      "tags": ["开发", "编码"],
+      "icon": "key",
+      "description": "Base64 / URL 编解码，全部本地计算",
+      "component": "Qroer.Tool.DevTools.EncodingTool"
+    },
+    {
+      "key": "unit_convert",
+      "name": "单位换算",
+      "category": "换算",
+      "tags": ["换算", "单位"],
+      "icon": "refresh",
+      "description": "长度/重量/存储/温度输入即算，小数位可在工具包配置调整",
+      "component": "Qroer.Tool.DevTools.UnitConvertTool"
+    }
+  ],
+  "settings": [
+    { "key": "precision", "name": "换算小数位", "type": "int", "default": "4" }
+  ],
+  "assets": []
+}

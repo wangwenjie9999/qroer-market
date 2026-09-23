@@ -1,0 +1,28 @@
+{
+  "id": "toolbox",
+  "name": "工具箱",
+  "version": "1.2.0",
+  "description": "工具宿主壳：首页/本地工具/在线工具/个人工具四视角（TB-6）+ 组件演示路由直达；存量工具已拆入独立 tool 包（TB-7）",
+  "icon": "tools",
+  "author": "Qroer",
+  "permissions": [
+    { "code": "toolbox:tool:use", "name": "使用工具箱" }
+  ],
+  "menus": [
+    {
+      "title": "工具箱", "icon": "tools", "route": "", "component": "toolbox/index", "sort": 30,
+      "children": [
+        { "title": "首页", "icon": "home", "route": "/toolbox", "component": "toolbox/index", "permission": "toolbox:tool:use", "sort": 1 },
+        { "title": "本地工具", "icon": "puzzle", "route": "/toolbox/local", "component": "toolbox/local", "permission": "toolbox:tool:use", "sort": 2 },
+        { "title": "在线工具", "icon": "globe", "route": "/toolbox/online", "component": "toolbox/online", "permission": "toolbox:tool:use", "sort": 3 },
+        { "title": "个人工具", "icon": "star", "route": "/toolbox/personal", "component": "toolbox/personal", "permission": "toolbox:tool:use", "sort": 4 }
+      ]
+    }
+  ],
+  "dashboardWidgets": [],
+  "requires": [
+    { "id": "notes", "version": "1.0.0" }
+  ],
+  "settings": [],
+  "assets": []
+}

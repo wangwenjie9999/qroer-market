@@ -1,9 +1,10 @@
 {
-  "schema": 1,
-  "generatedAt": "2026-09-22T12:35:49.209Z",
+  "schema": 2,
+  "generatedAt": "2026-09-23T07:04:36.844Z",
   "modules": [
     {
       "id": "hello",
+      "kind": "app",
       "name": "你好世界",
       "version": "1.0.2",
       "description": "市场占位插件：最小单页 + 概览小部件 + 配置项，用于验证在线源安装/升级链路",
@@ -18,13 +19,16 @@
       ],
       "widgets": 1,
       "menus": 1,
+      "tools": 0,
+      "links": 0,
       "package": "packages/hello/hello-1.0.2.zip",
       "url": "packages/hello/hello-1.0.2.zip",
-      "sha256": "517459c87501e0d89d402b27f3cac77536dc2d8336e449c3864fb95c921c829e",
-      "sizeBytes": 7262
+      "sha256": "44ee3e26db36bc7ce693f0b5347e30fe625ea45bfe18919c306f3494529abcb7",
+      "sizeBytes": 7259
     },
     {
       "id": "clock",
+      "kind": "app",
       "name": "时钟",
       "version": "1.0.0",
       "description": "市场占位插件：实时时钟页 + 概览小部件，验证带定时器与两个贡献点的模块",
@@ -39,13 +43,16 @@
       ],
       "widgets": 1,
       "menus": 1,
+      "tools": 0,
+      "links": 0,
       "package": "packages/clock/clock-1.0.0.zip",
       "url": "packages/clock/clock-1.0.0.zip",
-      "sha256": "1639278d0474b10fa2267b6499ff463b35ca20b3b300c4c6cce2e86ffcb9cae1",
-      "sizeBytes": 7853
+      "sha256": "ecea468a7bf9c1c8b9e435783299ea3c23ea7ad133ee4c3496bc0dccd36f1cf0",
+      "sizeBytes": 7856
     },
     {
       "id": "quote",
+      "kind": "app",
       "name": "随机格言",
       "version": "1.0.0",
       "description": "市场占位插件：格言列表页（静态数据表格）+ 今日格言小部件",
@@ -60,13 +67,16 @@
       ],
       "widgets": 1,
       "menus": 1,
+      "tools": 0,
+      "links": 0,
       "package": "packages/quote/quote-1.0.0.zip",
       "url": "packages/quote/quote-1.0.0.zip",
-      "sha256": "5cf348b823084694dda637de253c0570b8600a769b4db5164f190ab1ab4f3688",
-      "sizeBytes": 8621
+      "sha256": "01247860fd155577984d0143e46f84024c48fd195331716a25c0504e0c72077f",
+      "sizeBytes": 8624
     },
     {
       "id": "expense",
+      "kind": "app",
       "name": "记账本",
       "version": "1.0.0",
       "description": "日常收支记账：账单明细 CRUD + 月度报表 + 首页本月概览 + CSV 导出",
@@ -85,13 +95,16 @@
       ],
       "widgets": 1,
       "menus": 1,
+      "tools": 0,
+      "links": 0,
       "package": "packages/expense/expense-1.0.0.zip",
       "url": "packages/expense/expense-1.0.0.zip",
-      "sha256": "4f957e70954048f801ce2d4a52ba90848d0ef87c6f36af455dab3647f4a46c64",
-      "sizeBytes": 22574
+      "sha256": "de6c141d90b639a237d43ba2446eabcb114420c4a7ccee7e78b90a5932bc0480",
+      "sizeBytes": 22576
     },
     {
       "id": "site_publish",
+      "kind": "app",
       "name": "站点发布",
       "version": "0.6.2",
       "description": "本地 Markdown/草稿 → WordPress(RiPro-V5) 与微信公众号的批量、定时发布中心",
@@ -162,16 +175,19 @@
       ],
       "widgets": 1,
       "menus": 1,
+      "tools": 0,
+      "links": 0,
       "package": "packages/site_publish/site_publish-0.6.2.zip",
       "url": "packages/site_publish/site_publish-0.6.2.zip",
-      "sha256": "7c0a8127aef34e86a9a06b383f446105ae35c442e5d333bd9d6cefff67da104a",
-      "sizeBytes": 460648
+      "sha256": "35c18d0eb749569efbc93b6f583fb753024fbe1b407eb80cd138852926c2bc60",
+      "sizeBytes": 460653
     },
     {
       "id": "toolbox",
+      "kind": "app",
       "name": "工具箱",
-      "version": "1.0.8",
-      "description": "JSON / 时间戳 / 编码转换与单位换算 + PDF 水印清洗（智能分析/全能王预设），零数据表",
+      "version": "1.2.0",
+      "description": "工具宿主壳：首页/本地工具/在线工具/个人工具四视角（TB-6）+ 组件演示路由直达；存量工具已拆入独立 tool 包（TB-7）",
       "author": "Qroer",
       "icon": "tools",
       "requires": [
@@ -188,13 +204,16 @@
       ],
       "widgets": 0,
       "menus": 1,
-      "package": "packages/toolbox/toolbox-1.0.8.zip",
-      "url": "packages/toolbox/toolbox-1.0.8.zip",
-      "sha256": "a5d9b0909eb7b903a9ba63451ed1c77486fd498ac64456967db28ed961f48ad8",
-      "sizeBytes": 4647310
+      "tools": 0,
+      "links": 0,
+      "package": "packages/toolbox/toolbox-1.2.0.zip",
+      "url": "packages/toolbox/toolbox-1.2.0.zip",
+      "sha256": "abf1b69184fa0ad398d46c8da75d2607d26f219751755c7d77a14c9c10a7eefb",
+      "sizeBytes": 26677
     },
     {
       "id": "notes",
+      "kind": "app",
       "name": "笔记",
       "version": "1.1.2",
       "description": "随手记：表格 CRUD + 富文本写作页，验证模块全链路",
@@ -213,13 +232,16 @@
       ],
       "widgets": 1,
       "menus": 1,
+      "tools": 0,
+      "links": 0,
       "package": "packages/notes/notes-1.1.2.zip",
       "url": "packages/notes/notes-1.1.2.zip",
-      "sha256": "ca089f1b14836af0b7fcfc2dea548c0fb6bd0e3b7855f5c39d4c27ae3cf18308",
-      "sizeBytes": 19045
+      "sha256": "0f429a3899cf59d4a67df08427dee1771d3226cfa45cb26f833a6cac0ea6dc93",
+      "sizeBytes": 19044
     },
     {
       "id": "doubao_task",
+      "kind": "app",
       "name": "豆包任务",
       "version": "0.2.2",
       "description": "托管定时任务：后台静默操作本地豆包客户端（未启动时自动拉起并停边隐身）发送提示词，读回回复落盘 md；支持站点发文格式（front-matter）直出",
@@ -242,10 +264,93 @@
       ],
       "widgets": 0,
       "menus": 1,
+      "tools": 0,
+      "links": 0,
       "package": "packages/doubao_task/doubao_task-0.2.2.zip",
       "url": "packages/doubao_task/doubao_task-0.2.2.zip",
-      "sha256": "803fd246d2fe4342beced0af61cd15a340317a1b951a9dbbf0c58985094a9d05",
-      "sizeBytes": 59838
+      "sha256": "1b3b4344340b69a56a9e211bfe22e3ec6a68e3a3af6afbad59a1f52058e1891f",
+      "sizeBytes": 59831
+    },
+    {
+      "id": "devtools",
+      "kind": "tool",
+      "name": "开发小工具",
+      "version": "1.0.0",
+      "description": "开发者常用本地小工具：JSON 格式化/压缩/转义、Unix 时间戳互转、Base64/URL 编解码、单位换算，零外部依赖",
+      "author": "Qroer",
+      "icon": "terminal",
+      "requires": [],
+      "permissions": [],
+      "widgets": 0,
+      "menus": 0,
+      "tools": 4,
+      "links": 0,
+      "package": "packages/devtools/devtools-1.0.0.zip",
+      "url": "packages/devtools/devtools-1.0.0.zip",
+      "sha256": "79cbe4af283bfa50007ab648efc35c220ccf7ce38554f85f4cd5656edd5ebceb",
+      "sizeBytes": 9826
+    },
+    {
+      "id": "pdf_cleaning",
+      "kind": "tool",
+      "name": "PDF 水印清洗",
+      "version": "1.0.0",
+      "description": "PDF 水印清洗本地工具包：扫描全能王等导出 PDF 区域抹图、摘外链、redact 水印文字，全部本地计算",
+      "author": "Qroer",
+      "icon": "doc",
+      "requires": [
+        {
+          "id": "notes",
+          "version": "1.0.0"
+        }
+      ],
+      "permissions": [],
+      "widgets": 0,
+      "menus": 0,
+      "tools": 1,
+      "links": 0,
+      "package": "packages/pdf_cleaning/pdf_cleaning-1.0.0.zip",
+      "url": "packages/pdf_cleaning/pdf_cleaning-1.0.0.zip",
+      "sha256": "d465a348920fbdd8ec3f4f169c965dcd73ede958fef88a74d649d7281802665b",
+      "sizeBytes": 4635096
+    },
+    {
+      "id": "http_debug",
+      "kind": "tool",
+      "name": "HTTP 接口调试",
+      "version": "1.0.0",
+      "description": "HTTP 接口调试本地工具包：GET/POST 等请求构建（Params/Headers/Body/Auth）+ 发送 + 响应面板 + 会话历史，进程内 HttpClient 直连无 CORS 限制",
+      "author": "Qroer",
+      "icon": "globe",
+      "requires": [],
+      "permissions": [],
+      "widgets": 0,
+      "menus": 0,
+      "tools": 1,
+      "links": 0,
+      "package": "packages/http_debug/http_debug-1.0.0.zip",
+      "url": "packages/http_debug/http_debug-1.0.0.zip",
+      "sha256": "37fc796bd811ecd76dd86b846dcc21a2da8315bc09054126085d4ff3f6127908",
+      "sizeBytes": 17672
+    },
+    {
+      "id": "online_tools",
+      "kind": "link",
+      "name": "在线工具包（tool.lu）",
+      "version": "1.0.0",
+      "description": "tool.lu 在线工具导航数据包：纯链接跳转零代码，按分类投影为在线工具条目",
+      "author": "Qroer",
+      "icon": "globe",
+      "requires": [],
+      "permissions": [],
+      "widgets": 0,
+      "menus": 0,
+      "tools": 0,
+      "links": 141,
+      "package": "packages/online_tools/online_tools-1.0.0.zip",
+      "url": "packages/online_tools/online_tools-1.0.0.zip",
+      "sha256": "6896075deaed09338c07e36897cefeedf450a78cf63aab6a5761aea3707ddcb4",
+      "sizeBytes": 5488
     }
   ]
 }

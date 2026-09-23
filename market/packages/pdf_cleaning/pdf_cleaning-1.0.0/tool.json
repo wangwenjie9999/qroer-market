@@ -1,0 +1,29 @@
+{
+  "id": "pdf_cleaning",
+  "name": "PDF 水印清洗",
+  "version": "1.0.0",
+  "description": "PDF 水印清洗本地工具包：扫描全能王等导出 PDF 区域抹图、摘外链、redact 水印文字，全部本地计算",
+  "icon": "doc",
+  "author": "Qroer",
+  "kind": "tool",
+  "dll": "Qroer.Tool.PdfCleaning.dll",
+  "permissions": [],
+  "menus": [],
+  "dashboardWidgets": [],
+  "requires": [
+    { "id": "notes", "version": "1.0.0" }
+  ],
+  "tools": [
+    {
+      "key": "pdf_watermark",
+      "name": "PDF 水印清洗",
+      "category": "文档",
+      "tags": ["文档", "PDF", "水印"],
+      "icon": "edit",
+      "description": "扫描全能王等导出 PDF：区域抹图、摘外链、redact 水印文字，本地处理不联网",
+      "component": "Qroer.Tool.PdfCleaning.PdfWatermarkTool"
+    }
+  ],
+  "settings": [],
+  "assets": []
+}
